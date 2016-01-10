@@ -30,3 +30,49 @@ Change the words with jQuery
   <span data-id="7">You</span>
 </div>
 ~~~
+
+## Animation List 
+
+* bounce
+* flash
+* pulse
+* rubberBand
+* shake
+* swing
+* tada
+* wobble
+* jello
+* ceIn">bounceIn
+* bounceInDown
+* bounceInLeft
+* bounceInRight
+* bounceInUp
+* fadeIn
+* fadeInDown
+* fadeInDownBig
+* fadeInLeft
+* fadeInLeftBig
+* fadeInRight
+* fadeInRightBig
+* fadeInUp
+* fadeInUpBig
+* flip
+* flipInX
+* flipInY
+* lightSpeedIn
+* rotateIn
+* rotateInDownLeft
+* rotateInDownRight
+* rotateInUpLeft
+* rotateInUpRight
+* slideInUp
+* slideInDown
+* slideInLeft
+* slideInRight
+* zoomIn
+* zoomInDown
+* zoomInLeft
+* zoomInRight
+* zoomInUp
+* hinge
+* rollIn
