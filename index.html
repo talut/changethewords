@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Change The Words</title>
+  <!-- Style (Main) -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="animate.changethewords.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <h1 class="logo">Change The Words</h1>
+        </div>
+        <div class="col-md-6">
+          <nav>
+            <div class="centered">
+              <ul class="header-menu">
+                <li><a href="http://tafho.com">tafho.com</a></li>
+                <li><a href="http://taluttasgiran.com.tr">taluttasgiran.com.tr</a></li>
+                <li><a target="_blank" href="https://github.com/ataluttasgiran/changethewords.git">GITHUB</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- #header -->
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-push-1 col-xs-12 col-xs-push-0">
+          <div id="changethewords">
+            I love
+            <span data-id="1">Code</span>
+            <span data-id="2">Spaghetti</span>
+            <span data-id="3">Cats</span>
+            <span data-id="4">Bikes</span>
+            <span data-id="5">People</span>
+            <span data-id="6">Me</span>
+            <span data-id="7">You</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Changewords main js -->
+  <script src="jquery.changethewords.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#changethewords").changeWords({
+        time: 1500,
+        animate: "tada",
+        selector: "span"
+      });
+    });
+  </script>
+</body>
+
+</html>
