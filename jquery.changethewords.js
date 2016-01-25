@@ -24,6 +24,5 @@
         count = 0;
       }
     }, settings.time);
-    alert(order);
   }
 }(jQuery));
