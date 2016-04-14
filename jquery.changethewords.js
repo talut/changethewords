@@ -3,7 +3,8 @@
     var settings = $.extend({
       time: 1500,
       animate: "zoomIn",
-      selector: "span"
+      selector: "span",
+      repeat: true
     }, options);
     var wordCount = $(settings.selector, this).size();
     var words = $(settings.selector, this);
@@ -11,7 +12,7 @@
       return $(this).attr("data-id") != "1"
     }).css("display", "none");
     var count = 1;
-    setInterval(function() {
+    var changeThisWord = setInterval(function() {
       ++count;
       var wordOrder = count;
       words.filter(function() {
@@ -22,6 +23,10 @@
       }).css("display", "none").removeClass();
       if (count == wordCount) {
         count = 0;
+      }
+      if(count == 0 && settings.repeat != true)
+      {
+        clearInterval(changeThisWord);
       }
     }, settings.time);
   }
