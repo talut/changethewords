@@ -11,7 +11,8 @@ Change the words with jQuery
       $("#changethewords").changeWords({
         time: 1500,
         animate: "tada",
-        selector: "span"
+        selector: "span",
+        repeat: true // false
       });
     });
   </script>
