@@ -79,5 +79,4 @@ Change the words with jQuery
 * rollIn
 
 
-
 ###### Thanks for Repeat Option [JordanMichael2158](https://github.com/JordanMichael2158)
