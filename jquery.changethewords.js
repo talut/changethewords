@@ -6,7 +6,7 @@
       selector: "span",
       repeat: true
     }, options);
-    var wordCount = $(settings.selector, this).size();
+    var wordCount = $(settings.selector, this).length;
     var words = $(settings.selector, this);
     words.filter(function() {
       return $(this).attr("data-id") != "1"
